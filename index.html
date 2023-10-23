@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trendy Footwear</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        
+        header {
+            background-color: #f7900a;
+            padding: 0%;
+            display: flex; 
+            align-items: center; 
+            justify-content: space-between; 
+            
+            
+            
+        }
+        #headerimg{
+            width: 250px;
+            height: 200px;
+            display: inline-block;
+            padding-top: 1%;
+            padding-bottom: 0%;
+            padding-left: 5%;
+        
+        }
+        
+        #imgdesc{
+            color: white;
+            font-size: 70px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        #nav-links{
+            display: flex;
+        }
+        #nav-links a{
+            font-size: 20px;
+            color: white;
+            margin-top: 150px;
+            margin-right: 20px;
+            padding-right: 1px;
+            text-decoration: none;
+            
+        }
+
+        .hero{
+            width:100%;
+            background-color: rgb(103, 247, 199);
+            display: flex; 
+            align-items:center ; 
+            justify-content: space-between; 
+            
+        }
+        #heroimg{
+            width: 55%;
+            height: auto;
+            
+        }
+        .herodesc{
+            
+            color: white;
+            margin-right: 100px;
+            
+            
+        }
+        .herodesc h2{
+            font-size: 85px;
+            color: #f58e07;
+            
+            margin-bottom: 5px;
+    
+            
+        }
+        .herodesc h3{
+            
+            color: black;
+            letter-spacing: 1px;
+            font-size: 33px;
+            margin-bottom: 10px;
+            margin-top: 1px;
+            
+        }
+        .herodesc h4{
+            
+            color: white;
+            letter-spacing: 0px;
+            font-size: 15px;
+            margin-top: 3px;
+            margin-bottom: 10px;
+            
+        }
+        .herodesc p{
+            font-family: 'Courier New';
+            font-size: 20px;
+            color: #f7900a;
+            margin-bottom: 1px;
+            margin-top: 20px;
+        }
+        
+        .product{
+            background-color: #41faeadc;
+            
+        }
+        .col{
+            height:auto;
+            width: 33%;
+            margin-left: 25px;
+            
+        }
+        .col img{
+            width: 90%;
+            height: 250px;
+            margin: 0px;
+            
+        }
+        .about{
+
+            margin-top: 0px;
+            background-color: #07f5ba;
+        }
+        .about h1{
+            color: white;
+            font-size: 50px;
+            margin: 1%;
+        }
+        .about p{
+            font-size: 19px;
+            margin: 1%;
+        }
+        
+        .form{
+            background-color: rgb(103, 247, 199);
+            
+        }
+        .form h1{
+            
+            color: black;
+            font-size: 50px;
+            margin-left: 1%;
+
+        }
+        .form p{
+            font-size: 20px;
+            color: white;
+            margin-left: 1%;
+        }
+        #form{
+            background-color: rg(93, 236, 26);
+            padding: 0px;
+            border-radius: 5px;
+            text-align: left;
+            margin-left: 0%;
+        }
+        #form label{
+            margin-top: 10px; 
+            color:black; 
+            font-size: 20px; 
+            margin-left: 1%;
+
+        }
+        #form input{
+            width: 25%; 
+            padding: 5px; 
+            border-radius: 5px; 
+            margin-left: 1%;
+
+        }
+        #form textarea{
+            width: 25%; 
+            padding: 1px; 
+            border-radius: 5px; 
+            margin-left: 1%;
+
+        }
+        #form #submit{
+            background-color: rgb(250, 101, 101); 
+            color: black; 
+            padding: 10px 20px; 
+            border: none; 
+            border-radius: 2px; 
+            cursor: pointer;
+            margin-left: 1%;
+
+        }
+        .footer{
+            background-color: grey;
+        }
+        #footer{
+            text-align: center;
+        }
+        .footer a{
+            margin: 30px;
+        }
+        .footer p{
+            text-align: center;
+            color: white;
+            font-size: 20px;
+        }
+        
+        @media (max-width: 768px)
+        {}
+    </style>
+
+
+</head>
+<body>
+    
+        <header>
+
+            
+            <img src="logo.png" alt="headerimg" id="headerimg">
+            <p id="imgdesc"><i>TRENDY FOOTWEAR</i></p>
+            
+            <nav id="nav-links">
+                <a href="#home">HOME</a>
+                <a href="#product">PRODUCT</a>
+                <a href="#about">ABOUT US</a>
+                <a href="#form">CONTACT</a>
+            </nav>
+        </header>
+
+        <!--home section-->
+        <section id="home">
+        <div class="hero">
+            <img src="heroimg.jpg" id="heroimg">
+            <div class="herodesc"> 
+                <h2>N&S MENS</h2>
+                <h3>CASUAL RUNNING SHOES</h3>
+                <h4>COMFORTABLE WALKING JOGGING SPORTS SHOES</h4>
+                <div>
+                    <b> <p>PRICE= 3,199 PKR </p></b>
+                    <button type="button" class="btn btn-outline-danger">SHOP NOW</button>
+                </div>
+            </div>   
+        </div>
+    </section>
+
+    <!--product section-->
+    <section id="product">
+        
+        <div class="product">
+            <!--row 1-->
+            <br><br>
+            <div class="row">
+                <div class="col">
+                    <img src="product1.webp">
+                    <p><h5>JOGGARS SHOES</h5><h6>PRICE=5,599 PKR<button type="button" class="btn btn-danger">SHOP NOW</button></h6>Wear Clive Sporty shoes for ease and comfort and make these as your running partner</p>
+                </div>
+
+                <div class="col ">
+                    <img src="prod2.webp">
+                    <p><h5>SPORTS JOGGARS</h5><h6>PRICE=3,359 PKR<button type="button" class="btn btn-danger">SHOP NOW</button></h6>Let your kid wear to reflect his energetic and active nature</p>
+                </div>
+
+                <div class="col">
+                    <img src="prod3.webp">
+                    <p><h5>MEN ATHLEISURE</h5><h6>PRICE=4,399 PKR <button type="button" class="btn btn-danger">SHOP NOW</button></h6>Breathable fly knit upper, Lightweight and durable, PVC sole for exceptional comfort and support, Fle</p>
+                </div>
+
+                <div class="col">
+                    <img src="prod4.jpg">
+                    <p><h5>ADDIDAS MEN DURAMO</h5><h6>PRICE=24,600 PKR <button type="button" class="btn btn-danger">SHOP NOW</button></h6>Wear Sporty shoes for ease and comfort </p>
+                </div>
+            </div>
+
+            <!--row 2-->
+            <br><br>
+            <div class="row">
+                <div class="col">
+                    <img src="prod5.webp">
+                    <p><h5>SPORTS JOGGARS</h5><h6>PRICE=6,959 PKR<button type="button" class="btn btn-danger">SHOP NOW</button></h6>Wear Clive Sporty shoes for ease and comfort and make these as your running partner</p>
+                </div>
+
+                <div class="col ">
+                    <img src="prod6.jpeg">
+                    <p><h5>CROSS_WHITE BLACK</h5><h6>PRICE=5,399 PKR<button type="button" class="btn btn-danger">SHOP NOW</button></h6>Let your kid wear to reflect his energetic and active nature</p>
+                </div>
+
+                <div class="col">
+                    <img src="prod7.webp">
+                    <p><h5>WHITE CASUAL SNEAKERS</h5><h6>PRICE=3,500 PKR <button type="button" class="btn btn-danger">SHOP NOW</button></h6>Designed to offer comfort and style in one, these white casual sneakers are a must-have for an active lifestyle.</p>
+                </div>
+
+                <div class="col">
+                    <img src="prod8.jpg">
+                    <p><h5>CASUAL SNEAKERS FOR GIRLS</h5><h6>PRICE=1,999 PKR <button type="button" class="btn btn-danger">SHOP NOW</button></h6>These Synthetic Leather Casual Sneaker shoes for Women/girls are perfect for a casual occasion. Made with high-quality synthetic leather </p>
+                </div>
+            </div>
+
+            <!--row 3-->
+            <br><br>
+            <div class="row">
+                <div class="col">
+                    <img src="prod9.webp">
+                    <p><h5>WOMEN JOGGARS SOLE SNEAKERS</h5><h6>PRICE=4,999 PKR<button type="button" class="btn btn-danger">SHOP NOW</button></h6>Expect the unexpected with our super comfortable Jogger Sole Sneakers for Women.</p>
+                </div>
+
+                <div class="col ">
+                    <img src="prod10.webp">
+                    <p><h5>MEN SPORTS SHOES</h5><h6>PRICE=10,800 PKR<button type="button" class="btn btn-danger">SHOP NOW</button></h6>Breathable Upper, Light Weight, Ultra Bounce Sole, Easy Wash</p>       
+                </div>
+
+                <div class="col">
+                    <img src="prod11.jpg">
+                    <p><h5>AIR JORDAN</h5><h6>PRICE=11,999 PKR <button type="button" class="btn btn-danger">SHOP NOW</button></h6>Excellent quality shoes, great to wear, very comfortable</p>
+                </div>
+
+                <div class="col">
+                    <img src="prod12.webp">
+                    <p><h5>SKETCHERS</h5><h6>PRICE=2,699 PKR <button type="button" class="btn btn-danger">SHOP NOW</button></h6>Shoes will look amazing and will give you a sense of comfort and relief that your little one foot deserve</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!--about section-->
+    <section id="about">
+        
+        <div class="about">
+            <br>
+            <h1>ABOUT US</h1>
+            <p>"At TRENDY FOOTWEAR, we're all about fashion-forward footwear that makes a statement. We blend style and comfort seamlessly in every step. From sleek sneakers to elegant boots, our collection is designed for those who demand both trendiness and quality. Discover your unique style with TRENDY FOOTWEAR."</p>
+            <br>
+        </div>
+    </section>
+
+    <!--contact form-->
+    <section id="form">
+        <div class="form">
+            <br>
+            <h1>CONTACT FORM</h1>
+            <p>YOU CAN PROVIDE YOUR CONTACT BELOW</p>
+            <form id="form">
+            
+                <label  for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+        
+                <label  for="email">Email:</label><br>
+                <input  type="email" id="email" name="email" required><br><br>
+        
+                <label  for="subject">Subject:</label><br>
+                <input  type="text" id="subject" name="subject" required><br><br>
+        
+                <label  for="message">Message:</label><br>
+                <textarea   id="message" name="message" rows="4" required></textarea><br><br>
+        
+                <input id="submit" type="submit" value="Submit">
+            </form><br>
+        </div>
+    </section>
+
+    <!--footer section-->
+    <div class="footer">
+        <br>
+        <div id="footer">
+        <a  href="faiahmad010@gmail.com" >
+            <img  src="email.png"  alt="email" width="100px" height="80px" ></a>
+
+        <a href="https://github.com/FaizanAhmad10" >
+            <img src="github.png" alt="github" width="100px" height="80px" ></a>
+
+        <a href="https://www.facebook.com/profile.php?id=100027661582429" >
+            <img src="facebook.png" alt="facebook" width="100px" height="80px"></a>
+        </div>
+        <br>
+        <p>ADDRESS: Deans Trade Center Peshawar</p>
+        <p>MOB NO: 111-111-111</p>
+        <p>Trendy Footwear all rights reserved</p>
+
+        <div class="container mt-3">
+        <ul class="pagination justify-content-center">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+    </div><br>
+    </div>
+    
+    
+</body>
+</html>
